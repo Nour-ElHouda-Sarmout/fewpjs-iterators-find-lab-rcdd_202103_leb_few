@@ -6,10 +6,10 @@ function testFunc() {
 
 
 const superbowlWin = (arr) => {
-  const winGame = arr.find(obj => obj.result === "W") 
+  const winGame = arr.find(obj => obj.result === "W")
   if(!!winGame) {
-    return winGame.year 
+    return winGame.year
   } else {
-    return undefined 
+    return undefined
   }
 }  
